@@ -1,6 +1,7 @@
 /* Problem Statement: Write bool isPrime(int n), then print every prime numbers between a and b */
 
 #include<iostream>
+#include<cmath>
 using namespace std;
 
 bool isPrime(int n){
@@ -8,7 +9,7 @@ bool isPrime(int n){
     if (n == 2) return true;
     if (n % 2 == 0) return false;
 
-    for (int i = 3; i * i <= n; i += 2) {
+    for (int i = 3; i <= sqrt(n); i += 2) {
         if (n % i == 0) return false;
     }
     return true;
