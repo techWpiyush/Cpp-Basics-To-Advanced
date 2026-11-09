@@ -16,23 +16,23 @@ You are ready to start DSA after Stage 6: comfortable with pointers, recursion, 
 
 These eight programs lock in loops, conditions and basic input/output.
 
-- [ ] **Prime check.** Read an integer n and print whether it is prime. Loop only up to the square root of n.
-- [ ] **Factorial.** Compute n! with a loop using `unsigned long long`. Find the n where the result overflows and print a warning for it.
-- [ ] **Fibonacci series.** Print the first n terms iteratively, then print only the terms below a limit L.
-- [ ] **Palindrome number.** Reverse the digits of n using `%` and `/`, then say whether n equals its reverse.
-- [ ] **Digit sum and Armstrong number.** Print the sum and count of digits of n, then check if n is an Armstrong number (153 = 1³ + 5³ + 3³).
-- [ ] **GCD and LCM.** Read two numbers and compute both using Euclid's algorithm in a loop.
-- [ ] **Pattern printing.** For n rows print a right triangle, a centred pyramid, and a diamond using nested loops.
-- [ ] **Menu calculator.** Show a menu in a `do-while` loop with `switch` for +, -, \*, / and %. Handle division by zero and quit on option 0.
+- [x] **Prime check.** Read an integer n and print whether it is prime. Loop only up to the square root of n.
+- [x] **Factorial.** Compute n! with a loop using `unsigned long long`. Find the n where the result overflows and print a warning for it.
+- [x] **Fibonacci series.** Print the first n terms iteratively, then print only the terms below a limit L.
+- [x] **Palindrome number.** Reverse the digits of n using `%` and `/`, then say whether n equals its reverse.
+- [x] **Digit sum and Armstrong number.** Print the sum and count of digits of n, then check if n is an Armstrong number (153 = 1³ + 5³ + 3³).
+- [x] **GCD and LCM.** Read two numbers and compute both using Euclid's algorithm in a loop.
+- [x] **Pattern printing.** For n rows print a right triangle, a centred pyramid, and a diamond using nested loops.
+- [x] **Menu calculator.** Show a menu in a `do-while` loop with `switch` for +, -, \*, / and %. Handle division by zero and quit on option 0.
 
 ## Stage 2: Functions (UDF)
 
 Here you learn to split a problem into functions and see how arguments are passed.
 
-- [ ] **Primes in a range.** Write `bool isPrime(int n)`, then print every prime between a and b using it.
-- [ ] **Power function.** Write `long long myPow(int base, int exp)` without using `pow()`. Make a second version using recursion.
+- [x] **Primes in a range.** Write `bool isPrime(int n)`, then print every prime between a and b using it.
+- [x] **Power function.** Write `long long myPow(int base, int exp)` without using `pow()`. Make a second version using recursion.
 - [ ] **Swap three ways.** Write `swap` by value, by reference and by pointer. Print the variables before and after each call to see which version fails.
-- [ ] **Overloaded area.** Overload `area()` for a circle (radius), rectangle (length, width) and triangle (base, height).
+- [x] **Overloaded area.** Overload `area()` for a circle (radius), rectangle (length, width) and triangle (base, height).
 - [ ] **Default arguments.** Write `simpleInterest(principal, years, rate = 5.0)` and call it with and without the rate.
 - [ ] **Min and max together.** Write one function that returns both the minimum and maximum of three numbers through reference parameters.
 - [ ] **Recursion set.** Write recursive functions for factorial, the nth Fibonacci number, the sum of digits, and reversing a number.
