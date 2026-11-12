@@ -31,7 +31,7 @@ Here you learn to split a problem into functions and see how arguments are passe
 
 - [x] **Primes in a range.** Write `bool isPrime(int n)`, then print every prime between a and b using it.
 - [x] **Power function.** Write `long long myPow(int base, int exp)` without using `pow()`. Make a second version using recursion.
-- [ ] **Swap three ways.** Write `swap` by value, by reference and by pointer. Print the variables before and after each call to see which version fails.
+- [x] **Swap three ways.** Write `swap` by value, by reference and by pointer. Print the variables before and after each call to see which version fails.
 - [x] **Overloaded area.** Overload `area()` for a circle (radius), rectangle (length, width) and triangle (base, height).
 - [ ] **Default arguments.** Write `simpleInterest(principal, years, rate = 5.0)` and call it with and without the rate.
 - [ ] **Min and max together.** Write one function that returns both the minimum and maximum of three numbers through reference parameters.
